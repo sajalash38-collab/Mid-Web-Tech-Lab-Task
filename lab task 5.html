@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab task 5</title>
+</head>
+<body>
+    <header> <h1>Sajal Kumar Ghosh</h1>
+     <p>Student, Computer Science and Engineering</p>   
+
+        <nav>
+           <ul>
+                <li><a href="#biography">Biography</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+     </header>
+
+     <main>
+        <article id="biography"></article>
+
+        <section>
+                <h2>Professional Biography</h2>
+                <p>
+                    I am currently pursuing my B.Sc. in Computer Science and Engineering at 
+                    <strong>American International University-Bangladesh (AIUB)</strong>. 
+                    With a focus on software development and compiler design, I aim to build 
+                    efficient and scalable systems.
+                </p>
+            </section>
+        </article>
+
+        <hr>
+
+        <section id="education">
+
+            <h2>Academic Background</h2>
+
+            <table border="1" cellpadding="10">
+                
+                <caption>Summary of Formal Education</caption>
+                <thead>
+                    <tr>
+                        <th>Degree</th> 
+                        <th>Institution</th> 
+                        <th>Year</th>
+                        <th>Result</th> 
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>B.Sc. in CSE</td>
+                        <td>American International University-Bangladesh</td>
+                        <td>2027 (Expected)</td>
+                        <td>Ongoing</td>
+                    </tr>
+                    <tr>
+                        <td>Higher Secondary Certificate</td>
+                        <td>Khunla Public College </td>
+                        <td>2022</td>
+                        <td>5.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Contact Form</legend>
+                    
+                    <p>
+                        <label for="user-name">Full Name:</label> 
+                        <input type="text" id="user-name" name="name" placeholder=" Sajal Kumar Ghosh" required> 
+                    </p>
+
+                    <p>
+                        <label for="user-email">Email Address:</label>
+                        <input type="email" id="user-email" name="email" placeholder="sajalash38@gmail.com" required>
+                    </p>
+
+                    <p>
+                        <label for="user-phone">Phone Number:</label> 
+                        <input type="tel" id="user-phone" name="phone"  placeholder="017XXXXXXXX" pattern="[0-1]{2}[0-9]{9}" 
+                               title="Please enter a valid 11-digit Bangladeshi mobile number"> 
+                    </p>
+
+                    <p>
+                        <label for="message">Your Message:</label> <br>
+                        <textarea id="message" name="message" rows="5" cols="30" 
+                                  maxlength="500" placeholder="Type your message here..." required></textarea> </p>
+
+                    <button type="submit">Send Message</button>
+                    <button type="reset">Reset Form</button>
+                </fieldset>
+            </form>
+        </section>
+
+
+
+     </main>
+
+    <hr>
+
+    <footer>
+        <address>
+            Developed by: Sajal Kumar Ghosh<br>
+            Email: <a href="mailto:sajalash38@gmail.com">sajalash38@gmail.com</a><br>
+            GitHub: <a href="https://github.com/sajalash38">github.com/sajalash38</a>
+        </address>
+        <p>&copy; 2026 Academic Profile. All rights reserved.</p>
+    </footer> 
+</body>
+</html>
